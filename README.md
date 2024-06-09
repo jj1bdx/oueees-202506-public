@@ -20,9 +20,9 @@ Since 2020, I've been delivering the lectures in asynchronous format as a series
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。本レポジトリのライセンスは講義のビデオ/音声ファイルには適用されません。
 
-The slide PDFs and the Markdown text files for the slides including the brief presentator notes are placed under each topic directory.
+The slide PDFs and the Markdown text files for the slides including the brief presentator notes are placed under each topic directory. [Deckset for Mac](https://www.deckset.com/) is used to build PDFs from the Markdown files.
 
-スライドPDFとプレゼンターノートを含んだスライド用のマークダウン原稿テキストは各トピックのディレクトリに配置しています。
+スライドPDFとプレゼンターノートを含んだスライド用のマークダウン原稿テキストは各トピックのディレクトリに配置しています。MarkdownファイルからPDFを作成する際は[Deckset for Mac](https://www.deckset.com/)を使っています。
 
 ## Main theme: Information Delivery on Internet / インターネットの情報伝送
 
