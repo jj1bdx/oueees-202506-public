@@ -172,7 +172,9 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Cruelty and inequality going on everywhere by people with power to enslave oppressed and marginalized people
 
-^ そして世界中の権力者によって、弾圧されたり辺境に追いやられている人達が、奴隷のように扱われて残酷かつ不平等な扱いを受けているわけです。
+![original, background](library-of-congress-WzPxmB_tRlw-unsplash-edited.jpg)
+
+^ そして世界中の権力者によって、弾圧されたり辺境に追いやられている人達が、奴隷のように扱われて残酷かつ不平等な扱いを受けているわけです。この背景は1963年の米国公民権運動の写真です。今でも黒人や女性の人権は米国では十分守られているとは言えません。日本でも現在放映中のNHKの連続テレビ小説「虎に翼」に描かれているように、同様の問題が戦前の男女不平等の時代から、程度は異なるものの本質的には変わらないまま100年以上続いています。
 
 ---
 
@@ -189,7 +191,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 # [fit] Get out of slavery
 # [fit] Prevent slavery
 
-^ 安全を守ること、生き続けること、奴隷的立場から脱出すること、そして人を奴隷にすることを防がないといけないわけです。
+^ 安全を守ること、生き続けること、奴隷的立場から脱出すること、そして人を奴隷にすることを防がないといけないわけです。この講義で説明するインターネット技術も、自由と平等のためのものでなければならないと、私は考えています。
 
 ---
 
@@ -383,7 +385,8 @@ Erlang, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Stud
 # Picture credits:
 
 * My photo: by Suzuki Shin, at 鈴木心写真館, courtesy [Wantedly Official Profile](https://www.wantedly.com/id/jj1bdx)
-* Kyiv hit by missiles: by [Dmytro Tolokonov](https://unsplash.com/@dtolokonov) on [Upsplash](https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-pile-of-rubble-DO1J0mzqYzU)
+* 1963 Civil Rights March: by [US Library of Congress](https://unsplash.com/@libraryofcongress) on [Unsplash](https://unsplash.com/photos/civil-rights-march-on-washington-dc-WzPxmB_tRlw), rescaled and edited by Kenji Rikitake
+* Kyiv hit by missiles: by [Dmytro Tolokonov](https://unsplash.com/@dtolokonov) on [Unsplash](https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-pile-of-rubble-DO1J0mzqYzU)
   
 
 <!--
