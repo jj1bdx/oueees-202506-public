@@ -39,7 +39,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202306-public/>
+* <https://github.com/jj1bdx/oueees-202406-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
