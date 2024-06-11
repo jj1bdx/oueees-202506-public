@@ -157,8 +157,6 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 ---
 
-![original,fit](matt-palmer-kbTp7dBzHyY-unsplash.jpg)
-
 # [fit] Infrastructure crises
 
 ## [fit]
@@ -178,13 +176,11 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 ---
 
-<!-- one or two pics here -->
-
----
-
 # [fit] We live in the global warzone
 
-^ もはや地球のどこにいても戦争とは無縁でいられない状況になったわけで、我々はそんな世界を生き抜いていかなければならないわけです。
+![original, background](dmytro-tolokonov-DO1J0mzqYzU-unsplash.jpg)
+
+^ もはや地球のどこにいても戦争とは無縁でいられない状況になったわけで、我々はそんな世界を生き抜いていかなければならないわけです。この背景は2024年1月にウクライナのキーフで起きたロシアによるミサイル攻撃の状況です。
 
 ---
 
@@ -387,6 +383,8 @@ Erlang, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Stud
 # Picture credits:
 
 * My photo: by Suzuki Shin, at 鈴木心写真館, courtesy [Wantedly Official Profile](https://www.wantedly.com/id/jj1bdx)
+* Kyiv hit by missiles: by [Dmytro Tolokonov](https://unsplash.com/@dtolokonov) on [Upsplash](https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-pile-of-rubble-DO1J0mzqYzU)
+  
 
 <!--
 Local Variables:
