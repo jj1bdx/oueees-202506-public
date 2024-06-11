@@ -239,6 +239,8 @@ A physical server is separated into multiple virtual machines
 
 [^6]: Screenshot from <https://blog.nicovideo.jp/niconews/225099.html> on 0103UTC 11-JUN-2024, taken by Kenji Rikitake
 
+^ 最近の事例として、ニコニコ動画や関連のKADOKAWAグループのシステムに対するサイバー攻撃を紹介します。2024年6月8日から障害は発生しており、復旧には時間がかかっています。これは仮にクラウドコンピューティングを動かす基盤に対しての攻撃があった場合、その基盤上にあるすべての仮想マシンに問題が発生していると仮定しなければならず、攻撃の影響を排除してシステムを再構築するのには非常に時間がかかるということです。
+
 ---
 
 ## Inconvenience of centralized systems
