@@ -90,6 +90,17 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 ---
 
+![right fit](bluebacks-b2056.jpg)
+
+# 新しい1キログラムの測り方
+
+- 講談社 ブルーバックス B2056 ISBN 9784065020562
+- [講談社の書籍紹介ページ](https://bookclub.kodansha.co.jp/product?item=0000226705)
+
+^ この本は2018年の本ですが、その後物理学の単位が2019年に測定値を基準としたものから定義値を基準としたものに変わったことの歴史的意義、特に質量の定義において国際キログラム原器の使用を止めて定義したプランク定数から導出できるものとしたこと、およびそれに至るまでの計量学の歴史について詳細に書かれています。
+
+---
+
 # [fit] Choosing your career and professionality
 
 ^ 講義の最後に、これから必要なキャリアや専門性について、私の思うところを述べます。
