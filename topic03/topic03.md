@@ -439,15 +439,70 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 [^1]: Wikipedia contributors, [Head-of-line blocking: In reliable byte streams](<https://en.wikipedia.org/w/index.php?title=Head-of-line_blocking&oldid=1216469719>), Wikipedia, The Free Encyclopedia, 31 March 2024, 05:41 UTC [accessed 9 June 2024]
 
-^ Head-of-lineブロッキング問題について説明します。バッファを使った欠損データの回復を行おうとすると、欠損が発生した以降のデータは欠損が回復するまで転送されません。HTTP/2では一つのTCPストリームに複数のHTTPの処理要求と応答を乗せていたため、TCPで再送が発生すると、それが回復するまですべてのストリームが止まってしまうという問題がありました。これがHTTP/2上のhead-of-lineブロッキング問題です。QUICではこの問題をUDPデータグラムの上で複数のHTTPの通信を多重化することで解決しています。今回のトピックの話はこれで終わります。この後にキーワードがあります。
+^ Head-of-lineブロッキング問題について説明します。バッファを使った欠損データの回復を行おうとすると、欠損が発生した以降のデータは欠損が回復するまで転送されません。HTTP/2では一つのTCPストリームに複数のHTTPの処理要求と応答を乗せていたため、TCPで再送が発生すると、それが回復するまですべてのストリームが止まってしまうという問題がありました。これがHTTP/2上のhead-of-lineブロッキング問題です。QUICではこの問題をUDPデータグラムの上で複数のHTTPの通信を多重化することで解決しています。
 
 ---
 
 # Transport for various network environments
 
+* Local/Ethernet: short delay, low loss
+* Mobile/WiFi: medium delay, high loss
+* Longhaul/fiber: long delay, medium loss
+* LEOs (Starlink): varying SNR, varying loss [^2]
+* Interplanetary: ultra-long delay, ultra-high loss: Delay Tolerant Network (DTN) [^3]
+
+[^2]: Geoff Huston, [A Transport Protocol’s View of Starlink](https://www.potaroo.net/ispcol/2024-05/starlink-tcp.html), ISP Column, May 2024
+
+[^3]: Joab Jackson, [The Interplanetary Internet](https://spectrum.ieee.org/the-interplanetary-internet), IEEE Spectrum, 01 Aug 2005
+
+^ インターネットはさまざまな物理層に対応する必要があります。有線のローカルエリアネットワークでは短い遅延と少ないパケットロスを想定することができます。一方モバイル回線やWiFiでは、数十ミリ秒程度の長めの遅延と、電波状態等の影響による大きめのパケットロスを仮定することが必要です。そして大陸間の光ファイバーになると、光の速度の限界から、遅延は100ミリ秒を越えることもあり、パケットロスもそれなりに増えます。最近活用されつつある低軌道衛星(Low Earth Orbit Satellites, LEOs)でのStarlinkなどでは、S/N比など通信状態が大きく変動しますし、一つの衛星が見える時間が短いのでパケットロスの状況も刻一刻変わります。そして惑星間インターネットともなると、そもそもパケットの伝達時間が数分あるいは数十分となってしまうので、遅延に耐えるDelay Tolerant Network (DTN)という発想を根本的に変えたネットワークの仕組みを導入する必要があります。
+
 ---
 
 # L4S for minimizing latency
+
+* Demand for shorter latency/delay (1~2 ms)
+* Major obstacle: queueing delays
+* Data Center TCP (DCTCP) [^4]
+  * Key idea: use Explicit Congestion Notification for precise estimation of per-packet congestion
+  * *Not* coexisting well with existing TCP
+* L4S: Low Latency, Low Loss, and Scalable Throughput (L4S) Internet Service [^5]
+  * Coexistence of DCTCP and existing TCP in the same wide-area network
+
+[^4]: Stephen Bensley and Dave Thaler and Praveen Balasubramanian and Lars Eggert and Glenn Judd, [Data Center TCP (DCTCP): TCP Congestion Control for Data Centers](https://datatracker.ietf.org/doc/rfc8257/), RFC8257, October 2017
+
+[^5]: Bob Briscoe and Koen De Schepper and Marcelo Bagnulo and Greg White, [Low Latency, Low Loss, and Scalable Throughput (L4S) Internet Service: Architecture](https://www.rfc-editor.org/info/rfc9330), RFC9330, January 2023
+
+^ 現在使われているTCPはパケット再送のための待ち行列あるいはキューを制御する粒度が粗く、それが遅延の要因になっています。これではより短い遅延、具体的には1から2ミリ秒の遅延を実現できないため、2017年にデータセンターの内部で使うためのData Center TCP (DCTCP)が提案されました。DCTCPでは輻輳通知をパケット単位で細かく行うようにプロトコルを変えることで、より細かいキューの制御を可能にしています。ただし、DCTCPは従来のTCPとそのままでは混ぜて使うことはできません。そこでDCTCPと従来のTCPを別に扱うことで、広域ネットワークでもDCTCPを使うことを目標にしたL4Sという技術が現在実用化されつつあります。
+
+---
+
+# [fit] L4S and the Active Queue Management (AQM) solution
+
+```txt
+              (3)                  (2)
+                     .-------^------..------------^------------------.
+        ,-(1)-----.                               _____
+       ; ________  :            L4S  -------.    |     |
+       :|Scalable| :               _\      ||__\_|mark |
+       :| sender | :  __________  / /      ||  / |_____|\   _________
+       :|________|\; |          |/   -------'       ^    \1|condit'nl|
+        `---------'\_|  IP-ECN  |          Coupling :     \|priority |_\
+         ________  / |Classifier|                   :     /|scheduler| /
+        |Classic |/  |__________|\   -------.     __:__  / |_________|
+        | sender |                \_\ || | ||__\_|mark/|/
+        |________|                  / || | ||  / |drop |
+                             Classic -------'    |_____|
+
+       (1) Scalable sending host
+       (2) Isolation in separate network queues
+       (3) Packet identification protocol
+
+           Figure 1: Components of an L4S DualQ Coupled AQM Solution
+           (Quoted from RFC9330 Section 4.2 (Network Components))
+```
+
+^ L4Sの提案文書であるRFC9330の図を引用します。従来のTCPに対応したClassic Senderと、DCTCPに対応したScalable Senderを取り扱うキューを分離して、ネットワークの状況に応じて優先付けをすることで、2つの違う輻輳制御を行うプロトコルを共存させています。今回のトピックの話はこれで終わります。この後にキーワードがあります。
 
 ---
 
