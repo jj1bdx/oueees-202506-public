@@ -206,7 +206,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] Software Engineer
 # [fit] ~~Professional Internet Engineer~~
 
-^ かつてはプロフェッショナル・インターネット・エンジニアと名乗っていました。今はソフトウェアエンジニアと簡単に名乗ることが増えました。
+^ かつてはプロフェッショナル・インターネット・エンジニアと名乗っていました。今はソフトウェアエンジニアと簡単に名乗っています。
 
 ---
 
@@ -226,28 +226,28 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] GMOペパボ株式会社
 # [fit] ペパボ研究所 客員研究員
 
-^ 主な研究の仕事の一つは、GMOペパボ株式会社のペパボ研究所の客員研究員、そして同社の技術顧問として日々の業務からインターネットそして世界をどうやって研究開発の視点からもっとおもしろくしていくかに取り組んでいます。
+^ 主な研究の仕事の一つとして、GMOペパボ株式会社のペパボ研究所の客員研究員、そして同社の技術顧問として日々の業務からインターネットそして世界をどうやって研究開発の視点からもっとおもしろくしていくかに取り組んでいます。
 
 ---
 
 # My career
 
-Erlang, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Studio, Moodle, macOS, Windows, Vim, VS Code, Arduino, AVR, radio engineering, music, distributed systems, fault tolerance, software defined radio, Python, R, signal processing, adaptive filter, machine learning and deep learning apprentice, whatever.
+Erlang/OTP, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Studio, Moodle, macOS, Windows, Vim, VS Code, Arduino, AVR, radio engineering, music, distributed systems, fault tolerance, software defined radio, Python, R, signal processing, x86_64 AVX, HTML, CSS, JavaScript, TypeScript, adaptive filter, machine learning / deep learning, LLM and AI apprentice, whatever.
 
-34 years in Computer Science, 19 years since PhD, 48 years of ham radio op as @jj1bdx, 2010-2012: Professor, ACCMS/IIMC, Kyoto University, ACM Senior Member, whatever.
+35 years in Computer Science, 20 years since PhD, 49 years of ham radio op as @jj1bdx, 2010-2012: Professor, ACCMS/IIMC, Kyoto University, ACM Senior Member, whatever.
 
-^ 自分の職業としてはいろいろなことをやってきました。1990年に最初に社会人として就職してからもう34年になります。阪大の情報科学研究科で博士号を頂いてから19年が経過しました。京大の教授をやっていたこともあります。
+^ 自分の職業としてはいろいろなことをやってきました。1990年に最初に社会人として就職してからもう35年になります。阪大の情報科学研究科で博士号を頂いてから20年が経過しました。京大の教授をやっていたこともあります。
 
 ---
 
 # My recent career:
 
 ## [fit] I've got laid off on June 2013
-## [fit] 10 years of ongoing survival
+## [fit] >11 years of ongoing survival
 ## [fit] as an independent IT consultant
 ## [fit] and a *software engineer*
 
-^ とはいえ、10年前の2013年6月には、当時の勤務先から戦力外通告を受けました。会社都合退職といえば聞こえがいいですが、要するにクビになったわけです。その後は日々試行錯誤しながら、ITコンサルタントとソフトウェアエンジニアとして、必死に生きてきました。今年2024年の4月で、個人事業開業10周年になります。
+^ とはいえ、11年前の2013年6月には、当時の勤務先から戦力外通告を受けました。会社都合退職といえば聞こえがいいですが、要するにクビになったわけです。その後は日々試行錯誤しながら、ITコンサルタントとソフトウェアエンジニアとして、必死に生きてきました。今年2025年の4月で、個人事業開業11周年になります。
 
 ---
 
@@ -255,7 +255,7 @@ Erlang, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Stud
 # [fit] You need to live your life and earn money
 # [fit] ... then you can work on what you really want to do
 
-^ この10年ずっと肝に銘じていることは、過去の業績というのは何の役にも立たないこと、そして人生にとって一番大事なのはまず自分の人生を生きてしっかりカネを稼ぐこと。それをやって初めて自分の好きなことをやることができる、ということですね。
+^ この11年ずっと肝に銘じていることは、過去の業績というのは何の役にも立たないこと、そして人生にとって一番大事なのはまず自分の人生を生きてしっかりカネを稼ぐこと。それをやって初めて自分の好きなことをやることができる、ということですね。
 
 ---
 
