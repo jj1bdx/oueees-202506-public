@@ -1,21 +1,21 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic00
+footer: Kenji Rikitake / oueees 20250624 topic00
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 00:
+# oueees-202506 topic 00:
 # [fit] 電気工学特別講義
-# [fit] 2024年6月18日分
+# [fit] 2025年6月24日分
 # [fit] イントロダクション
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 イントロダクションです
+^ 大阪大学基礎工学部 電気工学特別講義 2024年6月17日分 イントロダクションです
 
 ---
 
 # [fit] OU EE ES Lecture Series
-# [fit] June 18, 2024
+# [fit] June 24, 2025
 # [fit] Lecture introduction
 
 ---
@@ -26,12 +26,12 @@ autoscale: true
 
 ## 力武 健次
 
-18-JUN-2024
-School of Engineering Science, Osaka University
+24-JUN-2025
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ![right, fit](jj1bdx-smiling-photo-20210416.jpg)
@@ -42,7 +42,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
@@ -52,7 +52,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
@@ -61,10 +61,11 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 ---
 
-# [fit] 2024:
+# [fit] 2025:
 # [fit] unstable and volatile world
+# [fit] and more wars
 
-^ 2024年は流動激動の年になっています。
+^ 2025年は流動激動の年になっています。
 
 ---
 
@@ -203,7 +204,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 ---
 
 # [fit] Software Engineer
-# [fit] Professional Internet Engineer
+# [fit] ~~Professional Internet Engineer~~
 
 ^ かつてはプロフェッショナル・インターネット・エンジニアと名乗っていました。今はソフトウェアエンジニアと簡単に名乗ることが増えました。
 
