@@ -1,8 +1,8 @@
-# README for the lecture/talk series at Osaka University, June 2024
+# README for the lecture/talk series at The University of Osaka, June 2025
 
-* 大阪大学 基礎工学部 電気工学特別講義 2024年度
+* 大阪大学 基礎工学部 電気工学特別講義 2025年度
 * Kenji Rikitake / 力武 健次
-* Latest revision: 8-JUN-2024
+* Latest revision: 17-JUN-2024
 
 ## Talk style / 講義のスタイル
 
@@ -16,7 +16,7 @@ Since 2020, I've been delivering the lectures in asynchronous format as a series
 * 講義スライドはGitHubで公開 / All slides are publicly available in GitHub
 * 成績評価は出席とレポートで / The students need to attend and submit the report for each talk
 
-*Caution: Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.* The license of this repository is *not applied* to the lecture video/audio files.
+*Caution: The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.* The license of this repository is *not applied* to the lecture video/audio files.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。本レポジトリのライセンスは講義のビデオ/音声ファイルには適用されません。
 
@@ -25,8 +25,6 @@ The slide PDFs and the Markdown text files for the slides including the brief pr
 スライドPDFとプレゼンターノートを含んだスライド用のマークダウン原稿テキストは各トピックのディレクトリに配置しています。MarkdownファイルからPDFを作成する際は[Deckset for Mac](https://www.deckset.com/)を使っています。
 
 ## Main theme: Information Delivery on Internet / インターネットの情報伝送
-
-*Note: details TBD for 2024.*
 
 Talk topics listed (but not limited to):
 
@@ -51,9 +49,9 @@ Keywords of this lecture:
 * Cloud computing .vs. endpoint computing
 * Sharing .vs. message passing
 * Centralization .vs. decentralization
-* Deterministic computation .vs. statistic estimation
+* Deterministic computation to probabilistic estimation-based computation
 
 ## License
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
