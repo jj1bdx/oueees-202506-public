@@ -65,58 +65,65 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] unstable and volatile world
 # [fit] and more wars
 
-^ 2025年は流動激動の年になっています。
+^ 2025年は流動激動の年になっています。そして昨年にも増して戦争が増えています。
 
 ---
 
-## It's already June 2024, but
+## It's already June 2025, but
 # [fit] *COVID-19 is still there*
-## [fit] My family recently suffers from COVID-19
-## [fit] It persists for months
+## [fit] My mother died partially from COVID-19
 
-^ この講義をしているのは2024年6月です。世間ではコロナあるいはCOVID-19はなくなったと言われていますが、実際にはCOVID-19の日次感染者数は一定数以上を保っており、なくなったとはとても言えない状態です。私もコロナに2022年7月に罹患し、1ヶ月ぐらい咳が残りました。それ以来少し集中力を欠いている状態が続いています。そして最近家族がコロナにかかりました。
+^ この講義をしているのは2025年6月です。世間ではコロナあるいはCOVID-19はなくなったと言われていますが、実際にはCOVID-19の日次感染者数は一定数以上を保っており、なくなってはいません。私もコロナに2022年7月に罹患し、1ヶ月ぐらい咳が残りました。それ以来少し集中力を欠いている状態が3年近く続いています。昨年夏には99歳だった母が亡くなりましたが、致命的だったのは母がコロナに罹患してしまったことでした。
 
 ---
 
-# [fit] To prevent COVID-19 outbreak again:
+# [fit] To prevent pandemics:
 ## [fit] Practice basic hygiene procedures
 ## Wash your hands
 ## Minimize the virus exposure
 ## Get vaccinated
 ## Wear masks whenever required
 
-^ コロナの再流行を防ぐためには、基本的な公衆衛生の手順を守ることが必要です。手洗いを欠かさず、ウイルスにさらされるような活動を最小限にして、ワクチンを打ち、必要な場所ではマスクを使い続けることが必要です。感染症法上の指定が緩くなったとしても、各自で続けていく必要があります。
+^ パンデミックを予防するためには、基本的な公衆衛生の手順を守ることが必要です。手洗いを欠かさず、ウイルスにさらされるような活動を最小限にして、ワクチンを打ち、必要な場所ではマスクを使い続けることが必要です。法律が緩くなったとしても、各自で続けていく必要があります。
 
 ---
 
 # [fit] Wars
 ## [fit] or "regional conflicts"
+## [fit] and even "trade wars"
 
-^ 2022年のロシアによるウクライナ侵攻以来、イスラエルによるガザ侵攻など、地域紛争と呼ばれる戦争が日常化しています。
-
----
-
-# [fit] *Japan has already engaged in the war*
-
-^ 忘れてはならないことは、日本はこれらの地域紛争にすでに関わりと立場を持って活動しているということです。
+^ 2022年のロシアによるウクライナ侵攻以来、イスラエルによるガザ侵攻やイラン攻撃、インドとパキスタンの間の武力紛争など、地域紛争と呼ばれる戦争が日常化しています。今年はこれにアメリカ合衆国の関税引き上げを発端とした貿易戦争が加わりました。
 
 ---
 
-# As of June 2024, Japan has most deeply committed in the military and peace-keeping activities on regional conflicts since 1952
+# [fit] *Japan has already engaged in the conflicts* 
+# *and trade wars*
 
-^ 2024年6月現在、1952年にサンフランシスコ平和条約が締結されて以来、日本がこれだけ地域紛争や平和維持活動に深くかかわったことはないものと思います。
+^ 忘れてはならないことは、日本はこれらの地域紛争や貿易戦争に、すでに深くかかわる立場を持って活動しているということです。
+
+---
+
+# As of June 2025, Japan has most deeply committed in the military and peace-keeping activities on regional conflicts since 1952
+
+^ 2025年6月現在、1952年にサンフランシスコ平和条約が締結されて以来、日本がこれだけ地域紛争や平和維持活動に深くかかわったことはないものと思います。
+
+---
+
+# Fair trade is the only way to survive for a country like Japan which does not have sufficient natural resources
+
+^ そして日本のように十分な天然資源のない国にとって、自由貿易こそが唯一の生存方法であることは忘れてはならないと思っています。
 
 ---
 
 # The levels of tension in the regional conflicts which Japan is engaged in are rising to much higher levels than those in the cold war during 1945-1991
 
-^ 私は1965年生まれで、学生時代は1980年代半ばから後半の冷戦まっただ中でした。当時も欧州では戦術核兵器が使われる可能性が取り沙汰されていました。しかし、現時点で日本がかかわっている地域紛争の緊張レベルというのは、1945年から1991年まで続いた冷戦時代よりもはるかに高く厳しいものだと思っています。
+^ 私は1965年生まれの60歳です。1980年代半ばから後半に過ごした学生時代は、世界は冷戦まっただ中でした。当時も欧州では戦術核兵器が使われる可能性が取り沙汰されていました。しかし、現時点で日本がかかわっている地域紛争の緊張レベルというのは、1945年から1991年まで続いた冷戦時代よりもはるかに高く厳しいものだと思っています。
 
 ---
 
 # We are under the process of revising our understating of how the world is built and formed
 
-^ 現在我々は世界がどのように作られて形成されてきたかの認識を根本的に変える過程にあるのだと思います。
+^ そして現在我々は世界がどのように作られて形成されてきたかの認識を根本的に変える過程にあるのだと思います。
 
 ---
 
@@ -153,8 +160,9 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] Physical ubiquity matters
 # [fit] i.e., we need ample supplies of daily necessities
 # [fit] to keep the software world running smoothly!
+# [fit] Can we maintain this assumption?
 
-^ しかし、2022年以降の世界中の物資受給の混乱からもわかるように、ソフトウェアの世界をなめらかに回していくには、日々の物資が潤沢にあることが必要なのです。つまりphysical ubiquity、日本語でいえばフィジカルなものがいたるところにあること、という前提が大事になってきます。
+^ しかし、2022年以降の世界中の物資受給の混乱からもわかるように、ソフトウェアの世界をなめらかに回していくには、日々の物資が潤沢にあることが必要なのです。つまりphysical ubiquity、日本語でいえばフィジカルなものがいたるところにあること、という前提が大事になってきます。果たしてこの前提を維持し続けられるのか、というのは現実世界の大きな課題になってきています。
 
 ---
 
@@ -167,7 +175,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 ## [fit]
 ## [fit] *Are we heading into the apocalypse?*
 
-^ そして現在、いろいろなところでインフラストラクチャー、あるいは社会基盤の危機が続いています。サプライチェーンが壊れたことにより、食料危機や半導体不足が起こっています。また原油や天然ガスの供給不足、そしてそのことを戦争遂行に利用する勢力によって、エネルギー価格の高騰が発生しています。地球温暖化による水不足や電気不足も起こっています。この10年ぐらいずっと語られつづけているのは、世界の終わりに向かって人類が突き進んでいるのではないか、ということです。普段生活しているとそんな感じは全然しないんですが、その認識自体が問題なのかもしれません。
+^ そして現在、いろいろなところでインフラストラクチャー、あるいは社会基盤の危機が続いています。サプライチェーンが壊れたことにより、食料危機や半導体不足が起こっています。また原油や天然ガスの供給不足、そしてそのことを戦争遂行に利用する勢力によって、エネルギー価格の高騰が発生しています。地球温暖化による水不足や電気不足も起こっています。21世紀に入ってずっと語られつづけているのは、世界の終わりに向かって人類が突き進んでいるのではないか、ということです。普段生活しているとそんな感じは全然しないんですが、その認識自体が問題なのかもしれません。
 
 ---
 
@@ -175,7 +183,9 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 
 ![original, background](library-of-congress-WzPxmB_tRlw-unsplash-edited.jpg)
 
-^ そして世界中の権力者によって、弾圧されたり辺境に追いやられている人達が、奴隷のように扱われて残酷かつ不平等な扱いを受けているわけです。この背景は1963年の米国公民権運動の写真です。今でも黒人や女性の人権は米国では十分守られているとは言えません。日本でも現在放映中のNHKの連続テレビ小説「虎に翼」に描かれているように、同様の問題が戦前の男女不平等の時代から、程度は異なるものの本質的には変わらないまま100年以上続いています。
+^ そして世界中の権力者によって、弾圧されたり辺境に追いやられている人達が、奴隷のように扱われて残酷かつ不平等な扱いを受けているわけです。この背景は1963年の米国公民権運動の写真です。今でも黒人や女性の人権は米国では十分守られているとは言えませんし、2025年1月以降の米国政府執行部は60年前と同様の人権抑圧ともいえる政策を再度実行しつつあります。日本でも同様の問題が程度は異なるものの本質的には変わらないまま100年以上続いています。世界経済フォーラムが2025年6月11日に発表したジェンダーギャップ指数では、日本は148の国や地域のうち118位となっています。
+
+<!-- https://www.weforum.org/publications/global-gender-gap-report-2025/in-full/benchmarking-gender-gaps-2025/ -->
 
 ---
 
@@ -192,7 +202,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] Get out of slavery
 # [fit] Prevent slavery
 
-^ 安全を守ること、生き続けること、奴隷的立場から脱出すること、そして人を奴隷にすることを防がないといけないわけです。この講義で説明するインターネット技術も、自由と平等のためのものでなければならないと、私は考えています。
+^ こんな状況下では、もちろん自分達の安全を守ること、生き続けること、奴隷的立場から脱出することは当然として、人を奴隷にすることを防がないといけないわけです。この講義で説明するインターネット技術も、自由と平等のためのものでなければならないと、私は考えています。
 
 ---
 
@@ -214,7 +224,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 # [fit] 力武健次技術士事務所 所長
 # 情報処理安全確保支援士
 
-^ 今は技術士の仕事をしています。技術士というと建設業で良く知られていますが、私は情報工学部門、つまりコンピュータ関連での調査研究をしています。自分の名前を付けた技術士事務所の名前を個人事業主の屋号にしています。また、情報セキュリティの資格である情報処理安全確保支援士の仕事もしています。
+^ 今は技術士の仕事をしています。技術士は建設業で一般的な資格ですが、私は情報工学部門、つまりコンピュータ関連での調査研究をしています。自分の名前を付けた技術士事務所の名前を個人事業主の屋号にしています。また、情報セキュリティの資格である情報処理安全確保支援士の仕事もしています。
 
 ---
 
