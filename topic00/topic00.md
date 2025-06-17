@@ -10,7 +10,7 @@ autoscale: true
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月17日分 イントロダクションです
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 イントロダクションです
 
 ---
 
@@ -193,7 +193,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 
 ![original, background](dmytro-tolokonov-DO1J0mzqYzU-unsplash.jpg)
 
-^ もはや地球のどこにいても戦争とは無縁でいられない状況になったわけで、我々はそんな世界を生き抜いていかなければならないわけです。この背景は2024年1月にウクライナのキーフで起きたロシアによるミサイル攻撃の状況です。
+^ もはや地球のどこにいても戦争とは無縁でいられない状況になったわけで、我々はそんな世界を生き抜いていかなければならないわけです。この背景は2024年1月にウクライナのキーウで起きたロシアによるミサイル攻撃の状況です。
 
 ---
 
@@ -242,7 +242,7 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 
 # My career
 
-Erlang/OTP, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Studio, Moodle, macOS, Windows, Vim, VS Code, Arduino, AVR, radio engineering, music, distributed systems, fault tolerance, software defined radio, Python, R, signal processing, x86_64 AVX, HTML, CSS, JavaScript, TypeScript, adaptive filter, machine learning / deep learning, LLM and AI apprentice, whatever.
+Erlang/OTP, Elixir, C, VAX/VMS now OpenVMS, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual Studio, Moodle, macOS, Windows, Vim, VS Code, Arduino, AVR, radio engineering, music, distributed systems, fault tolerance, software defined radio, Python, R, signal processing, x86_64 AVX, HTML, CSS, JavaScript, TypeScript, adaptive filter, machine learning / deep learning, LLM and AI apprentice, whatever.
 
 35 years in Computer Science, 20 years since PhD, 49 years of ham radio op as @jj1bdx, 2010-2012: Professor, ACCMS/IIMC, Kyoto University, ACM Senior Member, whatever.
 
@@ -398,6 +398,7 @@ Erlang/OTP, Elixir, C, FreeBSD, Linux, TCP/IP, PHP, mruby, Lua, C++, C#, Visual 
 * My photo: by Suzuki Shin, at 鈴木心写真館, courtesy [Wantedly Official Profile](https://www.wantedly.com/id/jj1bdx)
 * 1963 Civil Rights March: by [US Library of Congress](https://unsplash.com/@libraryofcongress) on [Unsplash](https://unsplash.com/photos/civil-rights-march-on-washington-dc-WzPxmB_tRlw), rescaled and edited by Kenji Rikitake
 * Kyiv hit by missiles: by [Dmytro Tolokonov](https://unsplash.com/@dtolokonov) on [Unsplash](https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-pile-of-rubble-DO1J0mzqYzU)
+* Pepabo R&D Institute logo used by permission of GMO Pepabo, Inc.
   
 
 <!--
