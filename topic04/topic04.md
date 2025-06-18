@@ -1,26 +1,26 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic04
+footer: Kenji Rikitake / oueees 20250624 topic04
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 04:
+# oueees-202506 topic 04:
 # Cloud computing basics
 # Social implication of cloud computing
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 トピック04 クラウドコンピューティングの基本とその社会的影響の話を始めます。
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 トピック04 クラウドコンピューティングの基本とその社会的影響の話を始めます。
 
 ---
 
 # Kenji Rikitake
 
-18-JUN-2024
-School of Engineering Science, Osaka University
+24-JUN-2025
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ^ 講師の力武 健次といいます。よろしくお願いします。
@@ -29,7 +29,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
@@ -39,7 +39,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
@@ -93,7 +93,7 @@ Thousands or millions of servers connected together
 
 A physical server is separated into multiple virtual machines
 
-^ これは2017年の京都大学学術情報メディアセンターのスーパーコンピューターの写真です。複数のサーバーがラックにマウントされていて、各々のサーバーは何十もの仮想マシンが動作しています。このようにして多数のサーバーを同時に集約して動かすということをしています。
+^ これは2017年の京都大学学術情報メディアセンターのスーパーコンピューターの写真です。複数のサーバーがラックにマウントされていて、各々のサーバーは何十もの仮想マシンが動作しています。このようにして多数のサーバーを同時に集約して動かすということをしています。最近は利用者との回線遅延を減らすため、同様の構成のデータセンターが都市部にも多く建設されています。
 
 ---
 
@@ -127,7 +127,7 @@ A physical server is separated into multiple virtual machines
 * *The servers compute*
 * *Extremely centralized*
 
-^ テレメータリングの特徴として、データの流れが一方向でありインターネットの双方向性を利用していないこと、そしてサーバーにデータを集中させた上で解析しているということがあります。昨今のGenerativeあるいは生成AIのためのモデル作りでも、このようにして収集された大量のデータが多かれ少なかれ活用されており、いわばテレメータリングがあって初めて生成AIが実用に耐えるものになったといっても過言ではないでしょう。
+^ テレメータリングの特徴として、データの流れが一方向でありインターネットの双方向性を利用していないこと、そしてサーバーにデータを集中させた上で解析しているということがあります。昨今の生成AIのためのモデル作りでも、このようにして収集された大量のデータが多かれ少なかれ活用されており、このようなデータ収集の仕組みがあって初めて生成AIが実用に耐えるものになったといっても過言ではないでしょう。
 
 ---
 
@@ -200,6 +200,18 @@ A physical server is separated into multiple virtual machines
 
 ---
 
+# Recent examples of privacy invasion
+
+* Confiscation of smartphones by US border control [^6]
+* End-to-End-Encryption (E2EE) neutralizing attempts
+* Unsafe social networks under constant surveillance
+
+[^6]: Lily Hay Newman, Matt Burgess, [How to Protect Yourself From Phone Searches at the US Border](https://www.wired.com/story/how-to-protect-yourself-from-phone-searches-at-the-us-border/), WIRED, last update: June 16, 2025
+
+^ 最近でもプライバシー侵害の事例は続いています。最も顕著なのは米国入国時に所持しているスマートフォンへの中身の検査が頻繁になったことです。また、強力なend-to-end暗号化により解読を困難にするシステムの実装について、解読に必要な秘密情報の開示を法律で義務づける国や地域も増えてきています。ソーシャルネットワークでは投稿する記事の内容を常時監視しており、不適切と判定された場合は投稿制限や記事の削除だけでなく当局への通報まで行われているといった事例もあります。
+
+---
+
 # [fit] Why cloud computing has become
 # [fit] so *dystopian*?
 
@@ -233,13 +245,13 @@ A physical server is separated into multiple virtual machines
 
 ![right, fit](niconico-info-20240611.png)
 
-* Niconico has been down due to possible cyberattack [^6]
+* Niconico had been down due to possible cyberattack in 2024[^7]
 * If an cloud instance is found compromised, *all the other instances on the same platform must be verified uncompromised*, or otherwise those instances might also be actually compromised
 * Other sites compromised presumably on the same cloud system: KADOKAWA
 
-[^6]: Screenshot from <https://blog.nicovideo.jp/niconews/225099.html> on 0103UTC 11-JUN-2024, taken by Kenji Rikitake
+[^7]: Screenshot from <https://blog.nicovideo.jp/niconews/225099.html> on 0103UTC 11-JUN-2024, taken by Kenji Rikitake
 
-^ 最近の事例として、ニコニコ動画や関連のKADOKAWAグループのシステムに対するサイバー攻撃を紹介します。2024年6月8日から障害は発生しており、復旧には時間がかかっています。これは仮にクラウドコンピューティングを動かす基盤に対しての攻撃があった場合、その基盤上にあるすべての仮想マシンに問題が発生していると仮定しなければならず、攻撃の影響を排除してシステムを再構築するのには非常に時間がかかるということです。
+^ 最近の事例として、ニコニコ動画や関連のKADOKAWAグループのシステムに対するサイバー攻撃を紹介します。2024年6月8日から発生した障害の復旧には数ヶ月の時間がかかりました。これは仮にクラウドコンピューティングを動かす基盤に対しての攻撃があった場合、その基盤上にあるすべての仮想マシンに問題が発生していると仮定しなければならず、攻撃の影響を排除してシステムを再構築するのには非常に時間がかかるということです。
 
 ---
 
