@@ -1,27 +1,27 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic02
+footer: Kenji Rikitake / oueees 20250624 topic02
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 02:
+# oueees-202506 topic 02:
 # Packet switching
 # Routing basics
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 トピック02 パケット交換と基本的な経路制御に関する話を始めます。
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 トピック02 パケット交換と基本的な経路制御に関する話を始めます。
 
 
 ---
 
 # Kenji Rikitake
 
-18-JUN-2024
-School of Engineering Science, Osaka University
+24-JUN-2025
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ^ 講師の力武 健次といいます。よろしくお願いします。
@@ -30,7 +30,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
@@ -40,7 +40,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
@@ -51,7 +51,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # [fit] Packet Switching
 
-^ 今回はパケット交換という話から始めます。
+^ 今回はパケット交換の話から始めます。
 
 ---
 
@@ -60,13 +60,13 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 What if you can split a stream into the *packets* and let them be delivered through *different links* for each packet?
 
-^ ここまでの講義では、コミュニケーションの間ずっと同じリンクを共有する、というやり方を仮定してきました。しかし、もしリンクの中の情報をパケットという単位に分割できて、それぞれのパケットが別のリンクを通せる、ということが可能だとすれば、通信の柔軟性や耐障害性はより高めることができます。これがパケット交換と呼ばれる技術の基本的な考え方です。
+^ ここまでの講義では、コミュニケーションの間ずっと同じリンクを共有してつないでおく、というやり方を仮定してきました。しかし、もしリンクの中の情報をパケットという単位に分割できて、それぞれのパケットについて別のリンクを使って通信できる、ということが可能だとすれば、通信の柔軟性や耐障害性をより高めることができます。これがパケット交換と呼ばれる技術の基本的な考え方です。
 
 ---
 
 # How to form a packet (1/2)
 
-* Split a stream into multiple pieces of data
+* Split a stream into multiple pieces of data (payloads)
 
 ```
 ABCDEFHIJ -> ABC DEF HIJ
@@ -78,7 +78,7 @@ ABCDEFHIJ -> ABC DEF HIJ
 ABC DEF HIJ -> P1-ABC P2-DEF P3-HIJ
 ```
 
-^ データの流れであるストリームからパケットを作るには、まずストリームを分割します。この例では9文字のストリームを3文字ずつに分割しています。そして分割したパケットに、順番を示すヘッダーを前に付けます。
+^ データの流れであるストリームからパケットを作るには、まずストリームを分割してパケットにします。この例では9文字のストリームを3文字ずつに分割しています。そして分割したパケットに、順番を示すヘッダーを前に付けます。ここでヘッダー以外の部分をペイロードといいます。
 
 ---
 
@@ -103,7 +103,7 @@ P1-ABC P2-DEF P3-HIJ
 [.background-color: #FFFFFF]
 ![fit](Packet_Switching.gif)
 
-^ このアニメーションでは、3つのパケットが、緑、青、赤の順番に並んでいるものとします。パケットは通信の当事者であるホストから中継機能を持つノードに送られるとそれぞれ別の経路を通ります。そして到達する順番も送る順番とは変わっています。
+^ このアニメーションでは、3つのパケットが、緑、青、赤の順番に並んでいるものとします。パケットは通信の当事者であるホストから中継機能を持つノードに送られて、そこからそれぞれ別のノード間の経路を通ります。そして到達する順番も送る順番とは変わっています。
 
 ---
 
@@ -140,7 +140,7 @@ P1-ABC P2-DEF P3-HIJ
 * Aggregating multiple communication links into a physical link
 * Connectionless *and* connection-oriented communication simultaneously
 
-^ パケット交換の利点について述べます。通信を行っている間に中継経路を変えることができるので、一つの経路に障害が発生しても、別の経路を選んで通信を継続することができます。また一つの通信について複数の経路を使えるので、同時に使って伝送量を上げることもできます。そして複数の通信ストリームを一本の物理的なリンクにまとめて通信することもできます。さらに、一つのパケットだけで通信内容が表せる場合は、通信路を確立させて行うコネクションオリエンティッドな方式と同時に、確立させずに済むコネクションレスな方式を使うこともできます。
+^ パケット交換の利点について考えてみます。通信を行っている間に中継経路を変えることができるので、一つの経路に障害が発生しても、別の経路を選んで通信を継続することができます。また一つの通信について複数の経路を使えるので、同時に使って伝送量を上げることもできます。そして複数の通信ストリームを一本の物理的なリンクにまとめて通信することもできます。さらに、一つのパケットだけで通信内容が表せる場合は、通信路を確立させて行うコネクションオリエンティッドな方式と同時に、確立させずに済むコネクションレスな方式を使うこともできます。
 
 ---
 
@@ -152,7 +152,7 @@ P1-ABC P2-DEF P3-HIJ
 * Each link can be utilized by all nodes
 * A disconnection of the link will not be fatal so long as one link is connected to a node
 
-^ パケット交換を応用すると、分散したネットワークを組むことができます。ここでいう分散とは、中心のノードがないこと、それぞれのリンクをすべてのノードが活用できること、そして外界に対して一本のリンクが使える状態であれば他のノードとの通信が維持できることを指します。
+^ パケット交換を応用すると、分散したネットワークを組むことができます。ここでいう分散とは、中心のノードがないこと、それぞれのリンクをすべてのノードが活用できること、つまり外界に対して一本のリンクが使える状態であれば他の各ノードとの通信が維持できることを指します。
 
 ---
 
@@ -164,7 +164,7 @@ P1-ABC P2-DEF P3-HIJ
 * Relay nodes can be neutralized by denial-of-service attacks
 * Difficult to manage
 
-^ とはいえパケット交換も良いことばかりではありません。それぞれのノードはパケットの解釈をしないといけないので、そのための計算量と計算資源を必要としますし、時間もかかります。故に信頼性と遅延がトレードオフの関係になってしまいます。また、中継ノードはサービス拒否あるいはDoS攻撃と言われる無関係あるいは無意味な情報の大量受信で使えなくなってしまうこともあります。昨今のサイバー攻撃の典型的なやり方の一つです。そして、通信の機能が多数のノードに分散して配置されるため、管理がとても難しくなります。
+^ とはいえパケット交換も良いことばかりではありません。それぞれのノードはパケットのヘッダーや場合によってはペイロードの解釈をしないといけないので、そのための計算量と計算資源を必要としますし、時間もかかります。故に信頼性と遅延がトレードオフの関係になってしまいます。また、中継ノードはサービス拒否あるいはDoS攻撃と言われる無関係あるいは無意味な情報の大量受信で使えなくなってしまうこともあります。昨今のサイバー攻撃の典型的なやり方の一つです。そして、通信の機能が多数のノードに分散して配置されるため、管理がとても難しくなります。
 
 ---
 
