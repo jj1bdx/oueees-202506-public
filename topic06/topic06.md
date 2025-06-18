@@ -1,9 +1,9 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic06
+footer: Kenji Rikitake / oueees 20250624 topic06
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 06:
+# oueees-202506 topic 06:
 # [fit] 
 # [fit] Wireless/radio and internet
 # [fit] Information warfare and radio surveillance
@@ -11,18 +11,18 @@ autoscale: true
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 トピック06 無線とインターネット、情報戦と無線による監視、そしてAIとその現実についての話を始めます。
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 トピック06 無線とインターネット、情報戦と無線による監視、そしてAIとその現実についての話を始めます。
 
 ---
 
 # Kenji Rikitake
 
-18-JUN-2024
+24-JUN-2025
 School of Engineering Science, Osaka University
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ^ 講師の力武 健次といいます。よろしくお願いします。
@@ -41,7 +41,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
