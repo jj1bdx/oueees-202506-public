@@ -18,7 +18,7 @@ autoscale: true
 # Kenji Rikitake
 
 24-JUN-2025
-School of Engineering Science, Osaka University
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
@@ -31,7 +31,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
