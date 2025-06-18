@@ -1,27 +1,27 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic01
+footer: Kenji Rikitake / oueees 20250624 topic01
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 01:
+# oueees-202506 topic 01:
 # Latency and laws of physics
 # Centralized Communication
 # Multiplexing
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 トピック01 遅延と物理法則、集中的コミュニケーション、そして多重化についての話を始めます。
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 トピック01 遅延と物理法則、集中的コミュニケーション、そして多重化についての話を始めます。
 
 ---
 
 # Kenji Rikitake
 
-18-JUN-2024
-School of Engineering Science, Osaka University
+24-JUN-2025
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ^ 講師の力武 健次といいます。よろしくお願いします。
@@ -30,7 +30,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
@@ -41,7 +41,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
@@ -52,7 +52,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # [fit] Latency and laws of physics
 
-^ 今回はまず遅延と物理法則という話から始めます。
+^ 情報伝送を考えるにあたり、遅延は重要な要素になります。今回はまず遅延と物理法則という話から始めます。
 
 ---
 
@@ -60,7 +60,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 # [fit] 299 792 458 [m/s]
 # [fit] This is a definition, *not* a measured value
 
-^ 真空中の光の速度は、毎秒299,792,458メートル、約30万キロメートルです。2019年にこの値は、国際単位系SIの定義として採用されました。実測による推定ではなく、定義されている値です。
+^ 真空中の光の速度は、毎秒299,792,458メートル、約30万キロメートルです。2019年にこの値は、国際単位系SIの定義として採用されました。実測による推定ではなく、定義されている値です。なので、変わることは想定されていません。
 
 ---
 
@@ -72,11 +72,11 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 * Water: 1.3330 for λ=589.3 nm [^1] -> 224901 km/s
 * Silica glass (optic fiber): 1.45 [^2] -> 206753 km/s
 
-[^1]: 「光学的性質」、理科年表2024、丸善、ISBN: 978-4-621-30857-8, pp. 481-482
+[^1]: 「光学的性質」、理科年表2025、丸善、ISBN: 978-4-621-31029-8, pp. 471-472
 
 [^2]: <https://apniphysics.com/classroom/optical-fiber-refractive-index/>, Last Updated 24-NOV-2019
 
-^ 物質中の光の速度は、屈折率で割った分遅くなります。屈折率は常に1以上です。空気はそんなに遅くならないんですが、水の中や光ファイバーの中だとかなり遅くなります。この速度の差を問題視する人達もいて、株式市場に関する通信応用の世界では、他人の敷地内を突っ切って光ファイバーをひたすら最短距離で引くとか、光ファイバーをやめてあえて電波にするとか、いろいろな試みが行われています。マイクロ秒の伝搬遅延が問題になるからだそうです。
+^ 物質中の光の速度は、屈折率で割った分遅くなります。屈折率は常に1以上です。空気はほとんど遅くならないんですが、水の中や光ファイバーの中だとかなり遅くなります。この速度の差を問題視する人達もいて、株式市場に関する通信応用の世界では、他人の敷地内を突っ切って光ファイバーをひたすら最短距離で引くとか、光ファイバーをやめて電離層を介した短波通信をするとか、いろいろな試みが行われています。マイクロ秒の伝搬遅延が問題になるからだそうです。
 
 ---
 
@@ -158,7 +158,7 @@ There are many ways to connect the dots in this picture
 
 ` `
 
-^ この電話線に起こった障害の例として、1929年に同じスウェーデンのヨンショーピングで起こった電話線の氷結による切断の例があります。見事に全部切れてますね。寒い地方では氷あるいは雪による架線の切断の可能性を考えないといけないわけです。今なら無線、あるいは電線よりももっと軽い光ファイバーを使うかもしれません。
+^ この電話線に起こった障害の例として、1929年に同じスウェーデンのヨンショーピングで起こった電話線の氷結による切断の例があります。見事に全部切れてますね。寒い地方では氷あるいは雪による架線の切断の可能性を考えないといけないわけです。他にも山火事や動植物による断線あるいはショートを考えないといけません。今なら無線、あるいは電線よりももっと軽い光ファイバーを使うかもしれません。
 
 ---
 
