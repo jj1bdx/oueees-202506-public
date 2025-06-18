@@ -1,27 +1,27 @@
 theme: Plain Jane, 2
-footer: Kenji Rikitake / oueees 20240618 topic03
+footer: Kenji Rikitake / oueees 20250624 topic03
 slidenumbers: true
 autoscale: true
 
-# oueees-202406 topic 03:
+# oueees-202506 topic 03:
 # Internet Protocol (IP) addresses
 # Routing in details
 # Network transports
 
 <!-- Use Deckset 2.0, 16:9 aspect ratio -->
 
-^ 大阪大学基礎工学部 電気工学特別講義 2024年6月18日分 トピック03 経路制御の詳細とネットワークトランスポートに関する話を始めます。
+^ 大阪大学基礎工学部 電気工学特別講義 2025年6月24日分 トピック03 経路制御の詳細とネットワークトランスポートに関する話を始めます。
 
 ---
 
 # Kenji Rikitake
 
-18-JUN-2024
-School of Engineering Science, Osaka University
+24-JUN-2025
+School of Engineering Science, The University of Osaka
 On the internet
 @jj1bdx
 
-Copyright ©2018-2024 Kenji Rikitake.
+Copyright ©2018-2025 Kenji Rikitake.
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ^ 講師の力武 健次といいます。よろしくお願いします。
@@ -30,7 +30,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # CAUTION
 
-Osaka University School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
+The University of Osaka School of Engineering Science prohibits copying/redistribution of the lecture series video/audio files used in this lecture series.
 
 大阪大学基礎工学部からの要請により、本講義で使用するビデオ/音声ファイルの複製や再配布は禁止されています。
 
@@ -40,7 +40,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 # Lecture notes and reporting
 
-* <https://github.com/jj1bdx/oueees-202406-public/>
+* <https://github.com/jj1bdx/oueees-202506-public/>
 * Check out the README.md file and the issues!
 * Keyword at the end of the talk
 * URL for submitting the report at the end of the talk
@@ -74,7 +74,9 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - 4 x 0~255 numbers split with dots
 - Relatively easy to remember, but already being used up
 
-^ IPアドレスとして昔から使われているのは32ビットのIPバージョン4あるいはIPv4のアドレスです。これは32ビットの整数を8ビット毎に0から255の数で表現してドットで区切ったものです。16進数で書くとC0A86414となります。一般的なIPアドレスというとこちらを指しますが、32ビットつまり2の32乗あるいは43億個弱しか区別できないんですね。すでに世界の人口は80億を越えていますから、もはやこれではまったく足らない状態になっています。
+^ IPアドレスとして昔から使われているのは32ビットのIPバージョン4あるいはIPv4のアドレスです。これは32ビットの整数を8ビット毎に0から255の数で表現してドットで区切ったものです。16進数で書くとC0A86414となります。一般的なIPアドレスというとこちらを指しますが、32ビットつまり2の32乗あるいは43億個弱しか区別できないんですね。すでに世界の人口は2024年には82億に達していますから、もはやこれではまったく足らない状態になっています。
+
+<!-- https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf -->
 
 ---
 
@@ -86,7 +88,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - Host 0 = network itself
 - Host 255 = broadcast
 
-^ このIPアドレスはどういう意味を持っているかというと、上位ビットからネットワークを示すビット長（ネットマスクともいいます）を決めて、残りをそのネットワークの中のホスト識別に使うことになっています。ここで示す192.168.100.0/24というアドレスは、ホスト識別部がゼロなので、ネットワーク自身を示します。たまたまドット区切りとネットワークの区切りがいっしょですね。なおホスト識別部のビットが全部1だと、ブロードキャストアドレスを示します。
+^ 192.168.100.0というIPアドレスについて考えてみます。このIPアドレスはどういう意味を持っているかというと、上位ビットからネットワークを示すビット長（ネットマスクともいいます）を決めて、残りをそのネットワークの中のホスト識別に使うことになっています。ここで示す192.168.100.0/24というアドレスは、ホスト識別部がゼロなので、ネットワーク自身を示します。たまたまドット区切りとネットワークの区切りがいっしょですね。なおホスト識別部のビットが全部1だと、ブロードキャストアドレスを示します。
 
 ---
 
@@ -99,7 +101,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - Host 15 = broadcast
 - Different netmask = different address interpretation
 
-^ 似たようなアドレスですが意味の違う例を示します。この例ではドット区切りとネットワークの区切りがいっしょではありません。ネットワーク部は28ビットありますので、ホスト識別部は4ビットしかありません。また、ネットマスクが違うので、前のスライドの192.168.100.0/24とは違うネットワークとして認識する必要があります。
+^ 似たようなアドレスですが意味の違う例を示します。この例ではドット区切りとネットワークの区切りがいっしょではありません。ネットワーク部は28ビットありますので、ホスト識別部は4ビットしかありません。また、ネットマスクが違うので、前のスライドの192.168.100.0/24とはまったく違う、特に含むホスト数の違うネットワークとして認識する必要があります。
 
 ---
 
@@ -132,10 +134,10 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 ---
 
 # [fit] IPv6 addresses: 128 bits
-# [fit] 2404:6800:4004:81e::2004
-# [fit] = 2404:6800:400a:081e:0000:0000:0000:2004
+# [fit] 2404:6800:4004:826::2004
+# [fit] = 2404:6800:400a:0826:0000:0000:0000:2004
 
-* a www.google.com address, as of 9-JUN-2024 0821UTC
+* a www.google.com address, as of 18-JUN-2025 0906UTC
 * :xxxx: = up to 4 hex digits
 * :: = arbitrary number of 0, appearing only once in an address
 * Your lookup results may vary
@@ -145,9 +147,9 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 ---
 
 # [fit] IPv6 addresses with netmask
-# [fit] 2404:6800:400a:81e::2004/64
+# [fit] 2404:6800:400a:818::2004/64
 
-* Network: 2404:6800:400a:81e::/64
+* Network: 2404:6800:400a:818::/64
 * Host number: 0x0000000000002004
 * Host number: 64 bits (0: network)
 * Broadcast -> multicast addresses
@@ -163,7 +165,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - No more new address block for IPv4
 - You need to buy unused blocks from other users
 - Took ~20 years (1996-2016) for the transition from IPv4 to IPv6
-- IPv6 has less users and nodes; plausibly faster
+- IPv6 has less users and nodes; plausibly less congested
 
 ^ なぜIPv4とIPv6が並立しているかについて説明します。IPv4のアドレスはもう新規に割り当てる場所がなく、使わなくなったアドレスは市場で高値で取り引きされている状況です。ですので、大規模な新規ネットワークアプリケーションはIPv6アドレスを使うことが増えました。IPv6が提案されてから移行普及に実質20年かかっていますが、未だにIPv4アドレスを前提としたサービスも多数残っており、IPv6の規模そのものはIPv4に比べて小さな状況が続いています。
 
@@ -190,7 +192,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - Works well on simple networks or star networks
 - Static routing may cause *ping-pong*
 
-^ 静的経路制御あるいはスタティックルーティングで経路を決めることを考えます。具体的には直接接続されていないネットワークに対して送信するときは、とりあえず既定値あるいはデフォルトの経路を決めて送信します。
+^ 静的経路制御あるいはスタティックルーティングで経路を決めることを考えます。具体的な方法としては、直接接続されていないネットワークに対して送信するときは、既定値あるいはデフォルトの経路を固定して決めて送信します。
 
 ---
 [.background-color: #FFFFFF]
@@ -222,7 +224,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 - Assume every link costs the same with each other
 
-^ 単純にホップ数を数えるやり方を考えてみましょう。これはそれぞれのリンクのコストが同じ場合に、最小コストの経路を求めよという問題と同値になります。
+^ 単純にホップ数を数えるやり方を考えてみましょう。これはそれぞれのリンクのコストが同じ場合に、最小コストの経路を求めよという問題と同じ問題になります。
 
 ---
 
@@ -278,14 +280,14 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 * For example: passing C is OK, but passing E is not: A-B-C-G and A-B-C-F-G are OK, but A-D-E-F-G is blocked
 * Common among interconnection of the autonomous systems (internet service providers and organizations)
 
-^ 同じ組織など管理方針が同じネットワークの中であればリンクコストの計算で経路制御ができますが、そうでない組織間の場合は、どの経路を通ってくるかを調べて通信を遮断したい場合があります。このような遮断要請は、接続事業者などの間で一般的に行われています。今までの図でいえば、たとえばEを通過させたくないという方針を考えてみましょう。
+^ 同じ組織など管理方針が同じネットワークの中であればリンクコストの計算で経路制御ができますが、そうでない組織間の場合は、どの経路を通ってくるかを調べて通信を遮断したい場合があります。このような遮断要請は、接続事業者などの間で一般的に行われています。今までの図を例として、たとえばEを通過させたくないという方針を考えてみましょう。
 
 ---
 [.background-color: #FFFFFF]
 
 ![original fit](routing-cost2-policy.jpg)
 
-^ この図ではEが遮断されている状況を考えます。このような遮断を実現するためには、リンクコストの情報ではうまくいきません。どのノードを通ったかを記録した上で、Eを通るものを明示的に識別して遮断できるようにすることが必要です。
+^ この図ではEが遮断されている状況を考えます。このような遮断を実現するためには、リンクコストの情報ではうまくいきません。どのノードを通るかを経路に記録した上で、Eを通るものを明示的に識別して遮断できるようにすることが必要です。
 
 ---
 
@@ -295,7 +297,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 * Path vector protocol: exchanging path of nodes for each network instead of the link costs
 * Highly vulnerable to external attacks
 
-^ 経路情報のやり取りをするための手順あるいはプロトコルとしては、今まで説明してきたネットワーク全体にリンクコスト情報をどんどん広げていくリンクステートプロトコルというのがあります。また、リンクコストではなく使用できる中継経路を列挙していくパスベクトルプロトコルもあります。経路情報プロトコルへの攻撃は、ネットワーク運用に対して大きな被害の原因になります。
+^ 経路情報のやり取りをするための手順あるいはプロトコルとしては、今まで説明してきたネットワーク全体にリンクコスト情報をどんどん広げていくリンクステートプロトコルというのがあります。また、経路遮断の例で説明した、リンクコストではなく使用する中継経路を列挙していくパスベクトルプロトコルもあります。経路情報プロトコルへの攻撃は、ネットワーク運用に対して大きな被害の原因になります。
 
 ---
 
@@ -309,7 +311,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 - -> aggregated as 192.168.100.0/22
 - 4 networks together as one aggregated network
 
-^ 経路情報はインターネット全体を考えると莫大な量になります。そこで少しても経路情報の量を減らすために、集約する方法が使われています。ここに示した例では、ネットマスクが/24の連続したアドレス空間を使っている4つのネットワークを、ネットマスクが/22の1つのネットワークとして集約しています。
+^ 経路情報はインターネット全体を考えると莫大な量になります。そこで少しても経路情報の量を減らすために、ネットマスクを使って集約することが行われています。ここに示した例では、ネットマスクが/24の連続したアドレス空間を使っている4つのネットワークを、ネットマスクが/22の1つのネットワークとして集約しています。
 
 ---
 
@@ -455,7 +457,7 @@ Osaka University School of Engineering Science prohibits copying/redistribution 
 
 [^3]: Joab Jackson, [The Interplanetary Internet](https://spectrum.ieee.org/the-interplanetary-internet), IEEE Spectrum, 01 Aug 2005
 
-^ インターネットはさまざまな物理層に対応する必要があります。有線のローカルエリアネットワークでは短い遅延と少ないパケットロスを想定することができます。一方モバイル回線やWiFiでは、数十ミリ秒程度の長めの遅延と、電波状態等の影響による大きめのパケットロスを仮定することが必要です。そして大陸間の光ファイバーになると、光の速度の限界から、遅延は100ミリ秒を越えることもあり、パケットロスもそれなりに増えます。最近活用されつつある低軌道衛星(Low Earth Orbit Satellites, LEOs)でのStarlinkなどでは、S/N比など通信状態が大きく変動しますし、一つの衛星が見える時間が短いのでパケットロスの状況も刻一刻変わります。そして惑星間インターネットともなると、そもそもパケットの伝達時間が数分あるいは数十分となってしまうので、遅延に耐えるDelay Tolerant Network (DTN)という発想を根本的に変えたネットワークの仕組みを導入する必要があります。
+^ インターネットはさまざまな物理層に対応する必要があります。有線のローカルエリアネットワークでは短い遅延と少ないパケットロスを想定することができます。一方モバイル回線やWiFiでは、数十ミリ秒程度の長めの遅延と、電波状態等の影響による大きめのパケットロスを仮定することが必要です。そして大陸間の光ファイバーになると、光の速度の限界から、遅延は100ミリ秒を越えることもあり、パケットロスもそれなりに増えます。最近活用されつつある低軌道衛星(Low Earth Orbit Satellites, LEOs)でのStarlinkなどでは、S/N比など通信状態が大きく変動しますし、一つの衛星が見える時間が短いのでパケットロスの状況も刻一刻変わります。そして惑星間インターネットともなると、そもそもパケットの伝達時間が数分以上になってしまうので、遅延に耐えることを前提としたDelay Tolerant Network (DTN)という根本的に違う発想のネットワークの仕組みを導入する必要があります。
 
 ---
 
