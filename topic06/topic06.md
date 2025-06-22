@@ -146,9 +146,21 @@ The University of Osaka School of Engineering Science prohibits copying/redistri
 
 ---
 
-# What Russo-Ukraine War has revealed so far as of June 2023
+# What Russo-Ukraine War has revealed so far as of June 2025
 
-^ 情報戦の例として、2023年6月までのロシア=ウクライナ戦争でわかったことのうちいくつかをを紹介します。
+^ 情報戦の例として、2025年6月までのロシア=ウクライナ戦争でわかったことのうちいくつかを紹介します。
+
+---
+
+# *DON'T: blindly trust your own physical transportation network*
+
+Operation Spiderweb [^0] revealed the physical-world Trojan Horse actually worked (if carefully prepared)
+
+Dead reckoning with open-source software ArduPilot and AI recognition of the target made the sneak attack successful
+
+[^0]: Operation Spiderweb, <https://en.wikipedia.org/w/index.php?title=Operation_Spiderweb&oldid=1296695523> (last visited June 22, 2025).
+
+^ 2025年6月1日にOperation Spiderwebというウクライナによるロシアの航空基地に対する攻撃作戦が行われ、ロシアは多くの戦略爆撃機などを失いました。この作戦はロシア領内での普通の貨物を模した木製の箱から遠隔操縦のドローンを発進させて近くの基地にある航空機を破壊するという攻撃でした。「トロイの木馬」の現代版と言えます。この攻撃ではArduPilotというオープンソースのソフトウェアや外部の情報に頼らない推測航法(dead reckoning)、そして操縦できなくなったときに備えてAIによる標的認識を組み合わせるという緻密な戦術の構築が作成成功に繋がったと言えます。
 
 ---
 
@@ -175,6 +187,20 @@ Aggregating the reception timing difference information of three (3) or more air
 [^3]: Hyperbolic navigation / Wikipedia: <https://en.wikipedia.org/wiki/Hyperbolic_navigation>
 
 ^ 戦場の外から三角測量で敵を特定するという行為も日常的に行われています。3機以上の飛行機が信号を受信することで、その時間差を使って平面上の位置を特定できます。4機あれば高度も特定できます。これは双曲線航法といって、昔から使われている方法です。
+
+---
+
+# DO: use jamming-proof communication methods
+
+> "A bird’s nest incorporating fiber optic cable is a striking sign of how much debris from fiber-guided FPVs now litters the landscape of Ukraine." [^4]
+
+This shows a critical change of communication
+
+*wired* communication is essential to prevent *radio jamming*
+
+[^4]: David Hambling, [Fiber Optic Bird’s Nest Heralds A Fiber Drone Summer In Ukraine](https://www.forbes.com/sites/davidhambling/2025/06/06/fiber-optic-birds-nest-heralds-a-fiber-drone-summer-in-ukraine/), Forbes, June 6, 2025
+
+^ 2025年6月のForbesの記事では、ウクライナの戦場において光ファイバーで作られた鳥の巣が頻繁に見付かっている、という話が紹介されていました。敵からの無線による妨害つまりジャミングの影響を排除するために、あえて軽量の光ファイバーを使い有線で操縦するドローンが大量に使われています。1979年の初代ガンダムではミノフスキー粒子という架空の物質により戦場では電波による無線通信が使えなくなるという設定がありましたが、もはやそれは現実になったということがいえるでしょう。言い換えれば、ジャミング対策のできない通信技術は戦場では無力だということです。
 
 ---
 
@@ -210,21 +236,21 @@ Using a strong end-to-end encryption (E2EE) such as OpenPGP and GnuPG is a plus 
 
 # Wartime social engineering: how to *lie*
 
-Fake photographs are all around from the beginning of the war [^4] and it's continuing [^5]: *old images and videos are falsely quoted* as the ongoing ones
+Fake photographs are all around from the beginning of the war [^5] and it's continuing [^6]: *old images and videos are falsely quoted* as the ongoing ones
 
-Claiming something without evidence and related facts are so common among all stakeholders of the war, and this is how war propaganda is conducted; see what Japan had done in World War II [^6]
+Claiming something without evidence and related facts are so common among all stakeholders of the war, and this is how war propaganda is conducted; see what Japan had done in World War II [^7]
 
-[^4]: BBC News, 25 February 2022, [Ukraine conflict: Further false images shared online](https://www.bbc.com/news/60528276)
+[^5]: BBC News, 25 February 2022, [Ukraine conflict: Further false images shared online](https://www.bbc.com/news/60528276)
 
-[^5]: France24.com, 06/06/2023, [Nova Kakhovka dam breach: Old image resurfaces to falsely illustrate today's damage](https://www.france24.com/en/tv-shows/truth-or-fake/20230606-nova-kakhovka-dam-breach-old-image-resurfaces-to-falsely-illustrate-today-s-damage)
+[^6]: France24.com, 06/06/2023, [Nova Kakhovka dam breach: Old image resurfaces to falsely illustrate today's damage](https://www.france24.com/en/tv-shows/truth-or-fake/20230606-nova-kakhovka-dam-breach-old-image-resurfaces-to-falsely-illustrate-today-s-damage)
 
-[^6]: Wikipedia contributors, [Propaganda in Japan during the Second Sino-Japanese War and World War II](https://en.wikipedia.org/w/index.php?title=Propaganda_in_Japan_during_the_Second_Sino-Japanese_War_and_World_War_II&oldid=1158927730), Wikipedia, The Free Encyclopedia, 7 June 2023, 03:40 UTC [accessed 13 June 2023]
+[^7]: Wikipedia contributors, [Propaganda in Japan during the Second Sino-Japanese War and World War II](https://en.wikipedia.org/w/index.php?title=Propaganda_in_Japan_during_the_Second_Sino-Japanese_War_and_World_War_II&oldid=1158927730), Wikipedia, The Free Encyclopedia, 7 June 2023, 03:40 UTC [accessed 13 June 2023]
 
 ^ 戦争が長期化するにつれ、どうやってウソを付くか、というパターンを見抜くことも必要になってきました。今や画像や動画は簡単に偽造できるので、フェイク画像や動画が引用されて現実に起こっていることであるかのように扱われることが増えてきています。そして戦争では何かを証拠や関連する事実といった根拠を示さずに主張することが日常になりました。これを戦争プロパガンダといいます。第二次大戦での大日本帝国も同じことをやっていました。
 
 ---
 
-# Finding the truth where totally conflicted views are presented [^7]
+# Finding the truth where totally conflicted views are presented [^8]
 
 * Check credentials: do the background check of the author
 * Look for the bias in the presented views and your own detection bias
@@ -232,7 +258,7 @@ Claiming something without evidence and related facts are so common among all st
 * Apply critical thinking: questioning ideas and assumptions
 * Consider relativistic reasoning than pursuing singular truth
 
-[^7]: A summary of [an answer by perplexity.ai with the question "Can you tell me how to find the truth where totally conflicted views are presented?"](https://www.perplexity.ai/search/00018c73-c45c-46f7-81fa-bd78c2301286)
+[^8]: A summary of [an answer by perplexity.ai with the question "Can you tell me how to find the truth where totally conflicted views are presented?"](https://www.perplexity.ai/search/00018c73-c45c-46f7-81fa-bd78c2301286)
 
 ^ いくつかの相矛盾する見方が示された時にどのように真実に辿りつくか、ということが、情報戦の時代には重要になってきます。発信元の素性を調べたり、主張に偏見がないか、そして主張を判断する人自身に偏見がないかを常に確認しなければなりません。過去発表された意見への評価も大事です。また主張の中身や前提を疑うクリティカルシンキングも必要です。世の中には唯一の真実はなく、価値は相対的なものという判断を行うことも大事になります。
 
@@ -252,7 +278,7 @@ Claiming something without evidence and related facts are so common among all st
 
 ---
 
-# AI as a buzzword in computer science (1/2) [^8]
+# AI as a buzzword in computer science (1/2) [^9]
 
 * LISP and "symbolic" (text) processing (1950s)
 * AI Winter in the 1970s
@@ -260,13 +286,13 @@ Claiming something without evidence and related facts are so common among all st
  - Japan: The Fifth Generation Computer Systems (1982-1994)
 * AI Winter in the 1990s
 
-[^8]: Wikipedia contributors, [History of artificial intelligence](https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1159316271), Wikipedia, The Free Encyclopedia, 9 June 2023, 15:53 UTC [accessed 13 June 2023]
+[^9]: Wikipedia contributors, [History of artificial intelligence](https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1159316271), Wikipedia, The Free Encyclopedia, 9 June 2023, 15:53 UTC [accessed 13 June 2023]
 
 ^ AIという単語はコンピュータサイエンスの中で何度もバズワードとして出てきました。1950年代には文字列の処理、当時は記号処理といったプログラミングのために、LISP言語が登場しました。その後1980年代には日本が主導した第5世代コンピュータプロジェクトなど、論理プログラミングやエキスパートシステムをAIとして扱う流儀が流行りました。とはいえ、AIの実現には膨大な計算機の力が要るため、1970年代と1990年代には「AIの冬」と呼ばれる停滞期を迎えています。
 
 ---
 
-# AI as a buzzword in computer science (2/2) [^8]
+# AI as a buzzword in computer science (2/2)
 
 * Breakthrough made by large-scale computing
   - Internet, massive parallelism, cloud computing
