@@ -328,7 +328,18 @@ Claiming something without evidence and related facts are so common among all st
 * *Don't: blindly believe the answers!*
 * *Also don't: use the output without proper citation*
 
-^ 生成AIができることは、せいぜい答を推測することでしかありません。決定論的な答を期待してはいけないと思います。一方で、生成AIの出力は入力を合成してまとめたものといえますし、プロンプトという指示の与え方で大幅に出力は変わります。出力結果は使用者が自分でレビューすることが必要ですし、そのまま信じてはいけないものです。また、AIの出力結果は使ったAIの名前などを適切に引用することが必要です。今回のトピックの話はこれで終わります。この後にキーワードがあります。
+^ 生成AIができることは、せいぜい答を推測することでしかありません。決定論的な答を期待してはいけないと思います。一方で、生成AIの出力は入力を合成してまとめたものといえますし、プロンプトという指示の与え方で大幅に出力は変わります。出力結果は使用者が自分でレビューすることが必要ですし、そのまま信じてはいけないものです。また、AIの出力結果は使ったAIの名前などを適切に引用することが必要です。
+
+---
+
+# Generative AI (AI) raises fundamental and phylosophical questions on making decisions
+
+* AI outputs are probabilistic at best and is *not 100% deterministic*
+* Modern science relies on deterministic logic for precision; should we give up precision for fast estimation using AI?
+* Consequently, AI will induce more distrust against science
+
+^ 生成AIの隆盛は意思決定についても重要な哲学的問題を提起しています。AIの出力は良くて確率的なものでしかなく、100%決定論的に導き出されることはありません。現代の科学は決定論にその精度を依存しています。AIによる高速な推定ができるからといって、精度の追求を放棄していいのでしょうか。そしてその結果として、AIはさらに科学に対する不信を呼ぶだろうと思います。
+今回のトピックの話はこれで終わります。この後にキーワードがあります。
 
 ---
 
